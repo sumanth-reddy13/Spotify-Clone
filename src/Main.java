@@ -95,6 +95,11 @@ public class Main {
                 case 4:
                     printMenu();
                     break;
+                 /*
+                      previousIndex: This method returns the index of the element that would be returned on calling the previous() method.
+                      nextIndex: This method returns the index of the element that would be returned on calling the next() method.
+                      remove: This method removes the last element from the list that was returned on calling next() or previous() method element from.
+                 */
                 case 5:
                     if (isForward == true) {
                         if (itr.previousIndex() > 0) {
